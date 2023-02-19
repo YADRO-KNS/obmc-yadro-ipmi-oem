@@ -32,6 +32,7 @@ incdir = include_directories('src', 'include')
 
 shared_library('yadroipmioem', 
     'src/oem_cmd.cpp',
+    'src/inventory_cmd.cpp',
     include_directories : incdir,
     implicit_include_directories: false,
     dependencies: [
