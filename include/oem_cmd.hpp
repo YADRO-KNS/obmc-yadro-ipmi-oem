@@ -23,6 +23,9 @@ static constexpr ipmi::Cmd cmdSmbios = 0xa0;
 /** @brief Command number for Storage list. */
 static constexpr ipmi::Cmd cmdStorage = 0xa1;
 
+/** @brief Command number for get PCIe Bifurcation config. */
+static constexpr ipmi::Cmd cmdGetPCIeBifurcation = 0xb0;
+
 } // namespace cmd
 
 } // namespace yadro
