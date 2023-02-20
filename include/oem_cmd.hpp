@@ -16,6 +16,15 @@ namespace yadro
 /** @brief IANA number of YADRO. */
 static constexpr uint32_t ianaYadro = 49769;
 
+namespace cmd
+{
+/** @brief Command number for SMBIOS dump. */
+static constexpr ipmi::Cmd cmdSmbios = 0xa0;
+/** @brief Command number for Storage list. */
+static constexpr ipmi::Cmd cmdStorage = 0xa1;
+
+} // namespace cmd
+
 } // namespace yadro
 
 } // namespace ipmi

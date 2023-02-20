@@ -13,7 +13,8 @@ OEM extensions.
 Related features provided by the library are grouped in separate source files.
 Main extensions to vanilla OpenBMC IPMI stack are the following:
 
-    - TBD
+- SMBIOS dump (processed by MDR parser);
+- Connected storage list.
 
 ## References
 
