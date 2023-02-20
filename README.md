@@ -15,6 +15,7 @@ Main extensions to vanilla OpenBMC IPMI stack are the following:
 
 - SMBIOS dump (processed by MDR parser);
 - Connected storage list.
+- Report PCIe bifurcation mode to UEFI
 
 ## References
 
